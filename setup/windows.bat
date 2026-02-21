@@ -21,8 +21,8 @@ haxelib git haxeui-core https://github.com/haxeui/haxeui-core 99d5d035e7120ce027
 haxelib git haxeui-flixel https://github.com/haxeui/haxeui-flixel b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9
 haxelib git moonchart https://github.com/MaybeMaru/moonchart 8c9d7cfe3280588fa71a8f3c4444c97bc7b63714
 haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 1966f8fbbbc509ed90d4b520f3c49c084fc92fd6
-haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio 8567c4dad34cfeaf2ff23fe12c3796f5db80685e
-haxelib git json2object ttps://github.com/FunkinCrew/json2object a8c26f18463c98da32f744c214fe02273e1823fa
+haxelib git grig.audio https://github.com/FunkinCrew/grig.audio 8567c4dad34cfeaf2ff23fe12c3796f5db80685e
+haxelib git json2object https://github.com/FunkinCrew/json2object a8c26f18463c98da32f744c214fe02273e1823fa
 haxelib install hxjsonast 1.1.0
 haxelib install json5hx 1.0.2
 haxelib set lime 8.1.3
