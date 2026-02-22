@@ -3918,7 +3918,8 @@ class ChartEditorState extends MusicBeatState
 			_file.addEventListener(Event.COMPLETE, onSaveComplete);
 			_file.addEventListener(Event.CANCEL, onSaveCancel);
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
-			_file.save(data.trim(), Paths.sanitize(_song.song) + ".json");
+			// _file.save(data.trim(), Paths.sanitize(_song.song) + ".json");
+			_file.save(data.trim(), "hard.json");
 		}
 	}
 	
