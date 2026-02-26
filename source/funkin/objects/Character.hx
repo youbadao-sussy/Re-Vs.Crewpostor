@@ -20,6 +20,8 @@ class Character extends Bopper
 	 */
 	public var camDisplacement:Float = 20;
 	
+	// public var camAngle:Float = 5;
+	
 	/**
 	 * is the player character
 	 * 
@@ -87,7 +89,7 @@ class Character extends Bopper
 	/**
 	 * how much the ghost anims move when played
 	 */
-	public var ghostDisplacement:Float = 40;
+	public var ghostDisplacement:Float = 20;
 	
 	/**
 	 *	if enabled, ghosts will show on double notes for the character
@@ -371,6 +373,7 @@ class Character extends Bopper
 		{
 			case 'up':
 				FlxPoint.weak(0, -camDisplacement);
+				FlxAngle.weak(0, -camDisplacement);
 			case 'down':
 				FlxPoint.weak(0, camDisplacement);
 			case 'left':
